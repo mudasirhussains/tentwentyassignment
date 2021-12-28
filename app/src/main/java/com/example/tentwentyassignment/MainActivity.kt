@@ -8,7 +8,9 @@ import androidx.fragment.app.Fragment
 import com.example.tentwentyassignment.databinding.ActivityMainBinding
 import com.example.tentwentyassignment.fragments.HomeFragment
 import com.example.tentwentyassignment.fragments.WatchFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 private lateinit var binding : ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {

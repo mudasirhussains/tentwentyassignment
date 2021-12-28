@@ -3,6 +3,7 @@ package com.example.tentwentyassignment.utils
 import android.app.Activity
 import android.content.Context
 import android.content.res.ColorStateList
+import android.net.ConnectivityManager
 import android.view.View
 import android.view.inputmethod.InputMethodManager
 import androidx.core.content.ContextCompat
@@ -21,4 +22,5 @@ object Extensions {
     fun Context.colorList(id: Int): ColorStateList {
         return ColorStateList.valueOf(ContextCompat.getColor(this, id))
     }
+
 }
